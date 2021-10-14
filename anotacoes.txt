@@ -1,0 +1,19 @@
+passo a passo para criar uma api nesse projeto :
+npm init
+npm yarn
+yarn add express
+yarn add sequelize
+yarn mysql2
+yarn sequelize-cli -d
+yarn add nodemon
+"script":{
+    "dev": "nodemon"
+
+
+}
+
+começar pelo server.js
+afazer o routes.jsyarn dev
+credenciais /src/config/database.jsyarn sequelize db:create
+.sequelizerc
+estrutura da pasta src/databasemigration
